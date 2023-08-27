@@ -1,0 +1,34 @@
+{
+  "name": "cinema-manager",
+  "version": "1.0.0",
+  "description": "node js api for cinema management app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run serve --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouradeljayi/cinema_manager.git"
+  },
+  "author": "Mourad EL Jayi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouradeljayi/cinema_manager/issues"
+  },
+  "homepage": "https://github.com/mouradeljayi/cinema_manager#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
